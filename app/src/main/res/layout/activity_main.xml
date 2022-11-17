@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:gravity="center"
+    android:background="@drawable/backgroug">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng đến với CHAT!"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_marginTop="10pt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Nơi giải tỏa căng thẳng mệt mỏi, giúp xích gần hơn với mọi người"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="700dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y520Nhu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

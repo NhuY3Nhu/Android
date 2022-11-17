@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/da"
+    tools:context=".Activity.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:background="@color/nau"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_logout"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_baseline_keyboard_backspace_24"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerViewUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

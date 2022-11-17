@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    tools:context=".Activity.LoginActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Chào mừng đến với CHAT"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext_shape"
+        android:padding="15dp"
+        android:id="@+id/edtEmail"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Email: "
+
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_shape"
+        android:padding="15dp"
+        android:id="@+id/edtPassword"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu: "
+        />
+    <Button
+        android:id="@+id/btnDN"
+        android:layout_width="350dp"
+        android:text="Đăng nhập"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textSize="17dp"
+        android:background="@drawable/button_shape"/>
+
+    <TextView
+        android:id="@+id/txtdk"
+        android:text="Nếu chưa có tài khoản hãy nhấn vào đây"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"/>
+
+</LinearLayout>

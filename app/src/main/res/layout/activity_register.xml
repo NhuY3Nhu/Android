@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.RegisterActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pro"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Chào mừng đến với CHAT"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext_shape"
+        android:padding="15dp"
+        android:id="@+id/edtreg_Name"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên: "
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_shape"
+        android:padding="15dp"
+        android:id="@+id/edtreg_Email"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Email: "
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_shape"
+        android:padding="15dp"
+        android:id="@+id/edtreg_Password"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu: "
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_shape"
+        android:padding="15dp"
+        android:id="@+id/edtreg_RePass"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu: "
+        />
+    <Button
+        android:id="@+id/btnDK"
+        android:layout_width="350dp"
+        android:text="Đăng Ký"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textSize="17dp"
+        android:background="@drawable/button_shape"/>
+
+    <TextView
+        android:id="@+id/txtdk"
+        android:text="Nếu đã có tài khoản hãy nhấn vào đây"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"/>
+
+</LinearLayout>
